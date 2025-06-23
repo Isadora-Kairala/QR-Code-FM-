@@ -1,0 +1,43 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+     
+#x{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: static; /* IMPORTANTE: tire o position: fixed para ela ficar dentro do cartão */
+  transform: none;
+  margin-bottom: 16px;
+}
+body {
+  background-color: #d6e2f0; /* fundo azul claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Outfit', sans-serif;
+}
+.cartao{
+   background-color: white;
+  border-radius: 18px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+  .cartao h1 {
+  font-size: 19px;
+  color: #1f3251;
+  margin: 0 0 12px;
+  
+}
+
+.cartao p {
+  font-size: 16px;
+  color: #7b879d;
+  padding: 0 8px;
+  margin: 0;
+}
